@@ -1,0 +1,93 @@
+/* Container for the entire app */
+.container {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f4f8; /* Light grey background for the container */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Headline styling */
+  .headline {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Input container styling */
+  .input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Input field styling */
+  .todo-input {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 8px;
+    width: 60%;
+    margin-right: 10px;
+    box-sizing: border-box;
+    background-color: #fff; /* White background for the input field */
+  }
+  
+  /* Add button styling */
+  .add-button {
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Unordered list styling */
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* List item styling */
+  .todo-list li {
+    background-color: #fff; /* White background for list items */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Light shadow for list items */
+  }
+  
+  .todo-list li:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Delete button styling */
+  .delete-button {
+    background-color: #dc3545;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 6px 12px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
