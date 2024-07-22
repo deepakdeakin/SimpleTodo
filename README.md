@@ -1,3 +1,4 @@
+<img width="1728" alt="Screenshot 2024-07-22 at 2 19 10 PM" src="https://github.com/user-attachments/assets/6e609234-12f1-4971-a86e-7d88e652e1be">
 # TodoApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.1.
